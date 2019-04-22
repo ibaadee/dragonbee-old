@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "What I learned from Devopsdays Jakarta 2019"
+date:   2019-04-22 23:49:00 +0700
+categories: post, conference, notes
+permalink: /devopsdays2019
+---
+
+
+Devopsdays is self organising technical event by local community with support and guidelines from Devopsdays international organizations. After 10th years ago Devopsdays first initiated in Belgium, now Devopsdays event and movement has spread around the world. This years, Devopsdays 2019 held for two days in Jakarta, this was second times Jakarta hosted Devopsdays. With 14 speakers from various background and company covering topic about DevOps from managing people and machine. This years I have a chance to attend this event representing my company to learn more about DevOps. I have personal interest on this topics because it combining managing people, developing software, and IT operations with fast pace to give fast delivery to customer in the market. More information about Devopsdays from their website [here][devopsdays] and Devopsdays Jakarta 2019, also complete list of speakers [here][devopsdays-jakarta]. Here some notes I've wrote from Devopsdays Jakarta 2019, and I combined and interpret from the speakers.
+
+<h1>The Event</h1> 
+Devopsdays 2019 Jakarta held two days at BRI Corporate University Cilandak. Besides speakers there are <b>open session</b>, <b>ignite session</b>, and <b>panel discussion</b>. <b>Open session</b> is where topics divided into four, and audience are free to choose one of four topics available. Then <b>ignite session</b> are 3 speakers talking with presentation slide running automatically. Then the speaker are discussing in front of all audience in <b>panel discussion</b> session. 
+
+<h1>The DevOps</h1>
+There are three keywords when it comes to DevOps. <b>Collaborations</b>, <b>communications</b>, and <b>integrations</b>. These three things that should be strengthen within teams in organizations. The point of the DevOps is shorten software development lifecycle with assistance of machine. But, DevOps is not about tools that the teams used to continuously integrate and deliver software. DevOps is a culture, a mindset that should be in everyone head. 
+
+An organizations that wants to shift they development method from traditional waterfall development should asses they IT Value Chain first to make sure that shifting needed. In order to compete with industry fast-paced development consideration to move to more faster delivery can't be delayed anymore or some one will eat our cake. We know about agile software devlopment with scrum the must popular methodology. Scrum offer sprints that evaluated after two or three weeks. Scrum focus on the development side of the project. Then to make it faster and better we could use DevOps mindset to integrate with operations team. This is interesting because in many organizations, development and operation teams like two side of coins that have different perspective and their own 'personal thought' about the opposite team. Advancing development and operations with DevOps mindset and culture is something challenging but worth it. The DevOps model doesn't require to create new division or team to handle 'DevOps Process'. Back to the keyword 'collaborations', 'communications', and 'integrations', the DevOps is creating culture that everyone in the 'Value chain' or 'delivery/development pipeline' of module/features/project are responsible and have a sense of belonging to the project. This is the way of thinking and interact. Everyone must known each responsibility and willing to help each other. 
+
+{% highlight ruby %}
+I can vs I will
+{% endhighlight %}
+
+<h1>CI/CD</h1>
+In DevOps, software must be delivered as fast as possible with high precision. There are some deployment strategy like red/black deployment or canary deployment. CI/CD (Continuous Integration/Continuous Delivery) is whole loop process of:
+<ol>
+    <li>Code</li>
+    <li>Build</li>
+    <li>Test</li>
+    <li>Deploy</li>
+    <li>Monitor</li>
+    <li>and repeat...</li>
+</ol>
+Number one to three are covering CI process, and four and five covering CD process. This process repeat as soon as possible to get rapid feedback from customer and rapidly improve quality of the software. The idea of CI/CD when we develop software in a day, at the end of the day we commit the code and then the code will be build and deploy automatically to the production server within a minutes. If anything wrong happened to the code, we could rollback to the previous stable version.
+
+<!--<h1>Mindset, Habit, Culture, and Leadership</h1>-->
+
+<!-- <h1>Tools</h1> -->
+
+<h1>Reference</h1>
+The material of this post mainly comes from the speakers of the events. There I also get some reference that we could read it later to maximise our knowledge about software development and DevOps.
+
+<ol>
+    <li><i>The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</i> by Gene Kim, Jez Humble, Patrick Debois, and John Willis (<a href= "https://www.goodreads.com/book/show/26083308-the-devops-handbook">Goodreads Review</a>)</li>
+    <li><i>DevOps for the Modern Enterprise: Winning Practices to Transform Legacy IT Organizations </i> by Mirco Hering and Bhaskar Ghosh (<a href= "https://www.goodreads.com/book/show/39097419-devops-for-the-modern-enterprise">Goodreads Review</a>)</li>
+    <li><i>The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</i> by Gene Kim, Kevin Behr, George Spafford (<a href= "https://www.goodreads.com/book/show/17255186-the-phoenix-project">Goodreads Review</a>)</li>
+    <li><i>Mindset: The New Psychology of Success</i> by Carol S. Dweck (<a href= "https://www.goodreads.com/book/show/40745.Mindset">Goodreads Review</a>)</li>
+    <li><i>Drive: The Surprising Truth About What Motivates Us</i> by Daniel H. Pink (<a href= "https://www.goodreads.com/book/show/12199967-drive">Goodreads Review</a>)</li>
+</ol>
+
+[devopsdays]: https://devopsdays.org
+[devopsdays-jakarta]: https://www.devopsdays.org/events/2019-jakarta/welcome/

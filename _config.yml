@@ -21,12 +21,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dragonbee.web.id" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ibaadee
 github_username:  ibaadee
+comments: true
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: dragonbee
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
