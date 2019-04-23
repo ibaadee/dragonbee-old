@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # Build the site with Jekyll
-bundle exec jekyll build
+bundle exec jekyll build production
 
 # Compress assets with Zopfli 
 # SKIPPED
