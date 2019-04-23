@@ -29,6 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+google_analytics: UA-137863971-1
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
