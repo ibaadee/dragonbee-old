@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # Build the site with Jekyll
-bundle exec jekyll build production
+#bundle exec jekyll build production
 JEKYLL_ENV=production jekyll build
 
 # Compress assets with Zopfli 
