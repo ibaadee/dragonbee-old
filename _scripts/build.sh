@@ -2,7 +2,7 @@
 set -x
 # Build the site with Jekyll
 #bundle exec jekyll build production
-JEKYLL_ENV=production jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 
 # Compress assets with Zopfli 
 # SKIPPED
