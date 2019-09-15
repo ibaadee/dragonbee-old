@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Initial Entry - How I started using Jekyll"
+lang: en
 date:   2019-04-10 00:34:00 +0700
 categories: post
 ---
-After so many times trying to write blog, and two years figuring out to host my own blog with my own domain. I decided to create brand new blog with new entries, so i could makes a fresh start to bring my stories and my thought through writing. Once, i'd like to create my blog from scratch, but i decided to create this blog with template. My previous blog run on Wordpress and i hosted in shared hosting service in my country. But later, after some project i worked on. I found affordable private hosting at [Digital Ocean][digital-ocean] (about US$5 a month by April 2019), so i decided to run this blog on my server. I also could use this instance to do some experiment with my stuffs. If you are student, you could get $50 [Digital Ocean][digital-ocean] credits from GitHub Student Pack by registering with your student e-mail.
+After so many times trying to write blog, and two years figuring out to host my own blog with my own domain. I decided to create brand new blog with new entries, so i could makes a fresh start to bring my stories and my thought through writing. Once, i'd like to create my blog from scratch, but i decided to create this blog with template. My previous blog run on Wordpress and i hosted in shared hosting service in my country. But later, after some project i worked on. I found affordable private hosting at [Digital Ocean][digital-ocean] (about US$5 a month by April 2019), so i decided to run this blog on my server. I also could use this instance to do some experiment with my stuffs. If you are student, you could get $50 [Digital Ocean][digital-ocean] credits from GitHub Student Pack by registering with your student e-mail. Anjay
 
 <h1>Prologue</h1>
 First thing that i would share to you is, 'How I Build this Blog'. I used Jekyll, a Ruby based static web template for my blog. Yes, I called this a template. This template is very simple and pretty straight forward so i could learn easily about it's structure in a days. You can learn about Jekyll in their website [here][jekyll]. Then, i installed it on my computer with guidance from [Ruby official website][ruby-install]. I followed the macOS installation guide, because my computer run on macOS. Some advice for Ruby installation in macOS, for security purposes the file ownership of Ruby file in your macOS belongs to `root`. Usually on macOS you don't logged on as root. Then you would see error message like this:

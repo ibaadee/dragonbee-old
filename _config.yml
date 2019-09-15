@@ -14,18 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nest of Honey
-email: ibad@dragonbee.web.id
+author: Ibad Saladdin
+email: ibad@kame.web.id
 description: >- # this means to ignore newlines until "baseurl:"
   Brave as Dragon, Sweet as a Bee.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.dragonbee.web.id" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ibad.kame.web.id" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ibaadee
 github_username:  ibaadee
 comments: true
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
